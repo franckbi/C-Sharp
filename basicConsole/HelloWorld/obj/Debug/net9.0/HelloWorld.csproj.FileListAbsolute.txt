@@ -1,0 +1,15 @@
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/bin/Debug/net9.0/HelloWorld
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/bin/Debug/net9.0/HelloWorld.deps.json
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/bin/Debug/net9.0/HelloWorld.runtimeconfig.json
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/bin/Debug/net9.0/HelloWorld.dll
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/bin/Debug/net9.0/HelloWorld.pdb
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.AssemblyInfo.cs
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.sourcelink.json
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.dll
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/refint/HelloWorld.dll
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.pdb
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/HelloWorld.genruntimeconfig.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/basicConsole/HelloWorld/obj/Debug/net9.0/ref/HelloWorld.dll

@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="franckline.MainWindow"
+        Title="DotNetBrowser 3 + Avalonia"
+        Width="1000" Height="700">
+
+    <DockPanel>
+        <!-- Toolbar with navigation -->
+        <ToolBar DockPanel.Dock="Top">
+            <Button Name="BackButton" 
+                    Content="Back" 
+                    Click="OnGoBackClick" />
+            <Button Name="ForwardButton" 
+                    Content="Forward" 
+                    Click="OnGoForwardClick" />
+            <Button Name="RefreshButton" 
+                    Content="Refresh" 
+                    Click="OnRefreshClick" />
+            <Separator />
+            <ComboBox Name="UrlComboBox" Width="400" />
+            <Button Name="GoButton" 
+                    Content="Go" 
+                    Click="OnNavigateClick" />
+        </ToolBar>
+
+        <!-- Display off-screen frames from DotNetBrowser -->
+        <Image Name="BrowserImage" Stretch="None" />
+    </DockPanel>
+</Window>

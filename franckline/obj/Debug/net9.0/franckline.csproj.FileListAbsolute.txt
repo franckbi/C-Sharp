@@ -1,0 +1,8 @@
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.csproj.AssemblyReference.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/Avalonia/resources
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.GeneratedMSBuildEditorConfig.editorconfig
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.AssemblyInfoInputs.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.AssemblyInfo.cs
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.csproj.CoreCompileInputs.cache
+/Users/franckb/Desktop/School/Learning/C-Sharp/franckline/obj/Debug/net9.0/franckline.sourcelink.json
