@@ -1,0 +1,65 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="500"
+        x:Class="Calculator.MainWindow"
+        Title="Calculator"
+        Width="350"
+        Height="500"
+        Background="Black"
+        CanResize="False"
+        WindowStartupLocation="CenterScreen">
+
+    <StackPanel Orientation="Vertical" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+        
+        <!-- Display for Numbers/Results -->
+        <Border Background="#232323" CornerRadius="10" Padding="10" Margin="10">
+            <TextBlock x:Name="resultTextBlock"
+                       Text="0"
+                       FontSize="36"
+                       Foreground="White"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+        </Border>
+
+        <!-- First Row -->
+        <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Content="7" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="8" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="9" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="÷" FontSize="28" Width="60" Height="60" Background="Orchid" Click="operator_Click"/>
+        </StackPanel>
+
+        <!-- Second Row -->
+        <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Content="4" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="5" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="6" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="×" FontSize="28" Width="60" Height="60" Background="Orchid" Click="operator_Click"/>
+        </StackPanel>
+
+        <!-- Third Row -->
+        <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Content="1" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="2" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="3" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="-" FontSize="28" Width="60" Height="60" Background="Orchid" Click="operator_Click"/>
+        </StackPanel>
+
+        <!-- Fourth Row -->
+        <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Content="0" FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="." FontSize="28" Width="60" Height="60" Click="onButton_Click"/>
+            <Button Content="+" FontSize="28" Width="60" Height="60" Background="Orchid" Click="operator_Click"/>
+            <Button Content="=" FontSize="28" Width="60" Height="60" Background="LimeGreen" Click="equalButton_Click"/>
+        </StackPanel>
+
+        <!-- Clear Button -->
+        <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Content="Clear" FontSize="28" Width="130" Height="60" Background="#DAF7A6" Click="clear_Click"/>
+        </StackPanel>
+
+    </StackPanel>
+
+</Window>
