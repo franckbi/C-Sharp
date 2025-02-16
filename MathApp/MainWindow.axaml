@@ -1,0 +1,51 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MathApp.MainWindow"
+        Title="MathApp">
+    <Grid Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/> <!--- Labels and textboxs-->
+            <ColumnDefinition Width="100"/> <!--- Space between labels and textboxs-->
+            <ColumnDefinition Width="Auto"/> <!--- Buttons-->
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="Auto"/> 
+        </Grid.RowDefinitions>
+
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Label Content="Enter First Number"/>
+            <TextBox Width="150"/>
+        </StackPanel>
+        <Button Grid.Row="0" Grid.Column="2" Content="Button 1"/>
+        <!-- Label and TextBox 2 -->
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label Content="Enter Second Number"/>
+            <TextBox Width="150"/>
+        </StackPanel>
+        <Button Grid.Row="1" Grid.Column="2" Content="button2"/>
+
+        <!-- Label and TextBox 3 -->
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <Label Content="Result"/>
+            <TextBox Width="150"/>
+        </StackPanel>
+        <Button Grid.Row="2" Grid.Column="2" Content="button3"/>
+
+        <!-- Button 4 (Aligned with TextBoxes) -->
+        <Button Grid.Row="3" Grid.Column="2" Content="button4"/>
+
+        <!-- Bottom Button 5 (Spanning across columns) -->
+        <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Content="button5"/>
+
+
+    </Grid>
+</Window>
